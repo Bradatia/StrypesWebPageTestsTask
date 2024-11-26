@@ -58,7 +58,7 @@ class ContactPage(BasePage):
         self.verify_warning_message_cleared(By.XPATH, locator.MAIL_WARNING_SELECTOR)
 
     def submit_contact_form_with_wrong_email_credentials(self):
-        self. submit_wrong_format_email()
+        self.submit_wrong_format_email()
         self.submit_not_valid_email()
 
 
